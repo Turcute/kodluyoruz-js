@@ -1,0 +1,55 @@
+/* Genel Ayarlar */
+body {
+  background: linear-gradient(to bottom, #000428, #004e92);
+  color: #f4f4f9;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Saat ve Yazılar */
+.clock {
+  color: #ffd700;
+  font-size: 70px;
+  font-family: "Roboto Mono", monospace;
+  letter-spacing: 5px;
+  margin: 20px 0;
+  text-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700, 0 0 30px #ffd700;
+}
+
+.text1,
+.text2 {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  margin: 10px 20px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.text1 strong,
+.text2 strong {
+  color: #ff7b54;
+}
+
+.text2 {
+  font-size: 25px;
+  margin: 10px 50px;
+}
+
+/* Görsel */
+img {
+  margin-top: 20px;
+  width: 200px;
+  filter: drop-shadow(0 0 10px #ffffff);
+}
+
+/* Hover Efekti */
+img:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
