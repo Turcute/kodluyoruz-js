@@ -14,7 +14,7 @@ function showTime() {
     second: "2-digit",
   });
 
-  document.getElementById("myClock").textContent = `${day}, ${timeString}`;
+  document.getElementById("myClock").textContent = `${day} ${timeString}`;
   setTimeout(showTime, 1000);
 }
 
